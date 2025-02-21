@@ -107,7 +107,7 @@ fieldset div select:focus-visible {
 * {
   scrollbar-width: thin;
   scrollbar-color: #bdc4ae #ffffff;
-} 
+}
 
 @media only screen and (min-width: 768px) {
   .footer {
@@ -219,5 +219,5 @@ fieldset div select:focus-visible {
   * {
     scrollbar-width: thin;
     scrollbar-color: #bdc4ae #ffffff;
-  } 
+  }
 }

@@ -22,9 +22,11 @@ function Input({
             rows={5}
             id="input"
             onInput={(e) => {
-              
               sethInput({ ...hInput, input: e.target.value });
-              sethInputLength({ ...hInputLength, input: e.target.value.length });
+              sethInputLength({
+                ...hInputLength,
+                input: e.target.value.length,
+              });
               // AilangDetecter(e.target.value);
             }}
             required
@@ -50,12 +52,8 @@ function Input({
               sethInput({ ...hInput, translateTo: e.target.value })
             }
           >
-            <option >
-              Translate to
-            </option>
-            <option value="en">
-              Enlish
-            </option>
+            <option>Translate to</option>
+            <option value="en">Enlish</option>
             <option value="pt">Portuguese</option>
             <option value="es">Spanish</option>
             <option value="ru">Russian</option>
@@ -120,7 +118,6 @@ function Input({
           </div>
         ) : null}
       </div>
-      
     </div>
   );
 }
