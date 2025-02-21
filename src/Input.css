@@ -1,0 +1,223 @@
+.footer {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.inputContainer {
+  display: flex;
+  border: solid 4px #131010;
+  border-radius: 12px;
+  margin-bottom: 5px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  background-color: #d2d4db;
+}
+
+.textarea {
+  font-size: x-large;
+  background-color: white;
+  border: solid 1px;
+  border-radius: 8px;
+  color: black;
+  resize: none;
+  width: 80vw;
+}
+
+.langDetect {
+  margin: 0px 10px;
+}
+/* prompt configuration btns style */
+.control {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.translateContainer {
+  display: flex;
+  align-items: flex-end;
+}
+.summerizeContainer {
+  margin-top: 10px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+fieldset {
+  display: flex;
+  border: 4px solid;
+  border-radius: 8px;
+  padding: 5px;
+  align-items: center;
+  width: 80vw;
+  margin-top: 10px;
+}
+
+fieldset div {
+  margin: 0px 5px;
+}
+fieldset div select {
+  font-size: large;
+}
+fieldset div select:focus-visible {
+  outline: none;
+}
+
+/* button styles */
+
+.submit {
+  font-size: x-large;
+  border-radius: 9px;
+}
+
+.translate {
+  font-size: x-large;
+  margin: 10px;
+  border: solid 4px #000000;
+  border-radius: 12px;
+  padding: 10px;
+  margin-bottom: 0px;
+  background-color: #42669c;
+  color: #000000;
+  margin-left: 0px;
+}
+.summerize {
+  font-size: x-large;
+  margin: 10px;
+  border: solid 4px #000000;
+  border-radius: 12px;
+  padding: 10px;
+  background-color: #49d4c7;
+  color: #000000;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+.englishBtn {
+  font-size: large;
+  margin: 10px;
+  border: solid 4px #000000;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #ffffff;
+  color: #000000;
+  margin-bottom: 0px;
+}
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #bdc4ae #ffffff;
+} 
+
+@media only screen and (min-width: 768px) {
+  .footer {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .inputContainer {
+    display: flex;
+    border: solid 4px #131010;
+    border-radius: 12px;
+    margin-bottom: 5px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    background-color: #d2d4db;
+  }
+
+  .textarea {
+    font-size: x-large;
+    background-color: white;
+    border: solid 1px;
+    border-radius: 8px;
+    color: black;
+    resize: none;
+    max-width: 900px;
+  }
+
+  .langDetect {
+    margin: 0px 10px;
+  }
+  /* prompt configuration btns style */
+  .control {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .translateContainer {
+    display: flex;
+    align-items: flex-end;
+  }
+  .summerizeContainer {
+    margin-top: 10px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  fieldset {
+    display: flex;
+    border: 4px solid;
+    border-radius: 8px;
+    padding: 5px;
+    align-items: center;
+    margin-top: 10px;
+    width: 620px;
+  }
+
+  fieldset div {
+    margin: 0px 5px;
+  }
+  fieldset div select {
+    font-size: large;
+  }
+  fieldset div select:focus-visible {
+    outline: none;
+  }
+
+  /* button styles */
+
+  .submit {
+    font-size: x-large;
+    border-radius: 9px;
+  }
+
+  .translate {
+    font-size: x-large;
+    margin: 10px;
+    border: solid 4px #000000;
+    border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 0px;
+    background-color: #42669c;
+    color: #000000;
+    margin-left: 0px;
+  }
+  .summerize {
+    font-size: x-large;
+    margin: 10px;
+    border: solid 4px #000000;
+    border-radius: 12px;
+    padding: 10px;
+    background-color: #49d4c7;
+    color: #000000;
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+  .englishBtn {
+    font-size: large;
+    margin: 10px;
+    border: solid 4px #000000;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #ffffff;
+    color: #000000;
+    margin-bottom: 0px;
+  }
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #bdc4ae #ffffff;
+  } 
+}
