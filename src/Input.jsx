@@ -16,7 +16,7 @@ function Input({
     <div className="footer">
       <div>
         <form className="inputContainer">
-          <span>Prompt</span>
+          <span>Input</span>
           <textarea
             className="textarea"
             rows={5}
@@ -27,7 +27,6 @@ function Input({
                 ...hInputLength,
                 input: e.target.value.length,
               });
-              // AilangDetecter(e.target.value);
             }}
             required
           ></textarea>
