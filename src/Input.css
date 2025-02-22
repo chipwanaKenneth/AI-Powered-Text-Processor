@@ -83,6 +83,13 @@ fieldset div select:focus-visible {
   color: #000000;
   margin-left: 0px;
 }
+.translate:hover{
+  cursor: pointer;
+}
+
+.summerize:hover{
+  cursor: pointer;
+}
 .summerize {
   font-size: x-large;
   margin: 10px;
